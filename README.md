@@ -6,6 +6,8 @@ An employee tracker using mysql workbench, JS, express, inquirer, and mysql. You
 
 GitHub Repository: https://github.com/snbarnhouse/employee_tracker 
 
+![employee_tracker](https://user-images.githubusercontent.com/77131387/116703473-53bdc180-a998-11eb-860c-2cddae0c0aa1.png)
+
 Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as **C**ontent **M**anagement **S**ystems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 
 ## Instructions

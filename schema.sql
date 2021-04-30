@@ -1,4 +1,5 @@
 --Deleting DB if it already exists and creating new DB--
+
 Drop DATABASE IF EXISTS employee_trackerDB;
 CREATE DATABASE employee_trackerDB;
 
@@ -56,9 +57,9 @@ VALUE ("Trauma Nurse", 130000, 4);
 
 --Employees--
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Drake", "Ramoray", 4, 1);
+VALUE ("Ann", "Perkins", null, 1);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Ann", "Perkins", null, 2);
+VALUE ("Drake", "Ramoray", 1, 1);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
 VALUE ("Meredith", "Grey", null, 3);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
